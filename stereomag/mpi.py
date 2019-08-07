@@ -17,12 +17,13 @@
 """
 
 from __future__ import division
-import os
+import os, sys
+sys.path.append('/home/skatuku2/ws/stereo-magnification/stereomag/')
 import time
 import tensorflow as tf
 import geometry.projector as pj
 from third_party.vgg import build_vgg19
-from stereomag.nets import mpi_net
+from nets import mpi_net
 
 
 class MPI(object):

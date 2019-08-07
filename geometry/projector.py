@@ -17,6 +17,8 @@
 """A collection of projection utility functions.
 """
 from __future__ import division
+import sys, os
+sys.path.append('/home/skatuku2/ws/stereo-magnification/geometry/')
 import tensorflow as tf
 import homography
 
